@@ -1,0 +1,278 @@
+/* header */
+#header{
+    background-color:rgb(4, 2, 22);
+    height: 70px;
+}
+.parent{
+    position: relative;
+}
+#controller2{
+    position: absolute;
+    top:10px;
+    left: 30px;
+}
+#header-btn{
+    height: 40px;
+    width: 110px;
+    padding-top: 8px;
+    text-align: center;
+    color: azure;
+    font-weight: 500;
+    background-color: rgba(48, 48, 146, 0.513);
+    margin-left: 180px;
+}
+
+/* page1 */
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+    font-size: 18px;
+}
+#navbar ul li a:hover::after{
+    content:"";
+    background-color: rgb(161, 176, 28);
+    display: block;
+    height: 3px;
+    border-radius: 25px;
+    }
+#navbar ul li a:hover{
+        font-size: 20px;
+}
+#page_1{
+    background-color:rgb(4, 2, 22); 
+    height: 820px;
+}
+
+#pg1-para{
+    color: white;
+    margin-bottom: 35px;
+    font-size: 17px;
+}
+
+#pg1-btn1{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px 18px;
+    position: relative;
+    right: 10px;
+}
+
+#pg1-btn2{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background-color: rgb(4, 2, 22);
+    padding: 8px 18px;
+    margin-left: 10px;
+}
+
+#blur1{
+    height: 280px;
+    width: 280px;
+    position:absolute;
+    top: 250px;
+    left:-120px;
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(120px);
+}
+
+#blur2{
+    height: 280px;
+    width: 250px;
+    position:absolute;
+    top: 550px;
+    right: 60px;
+    border-radius: 100%;
+    background-color:rgba(97, 35, 168, 0.736);
+    filter: blur(100px);
+    z-index: 1;
+}
+
+.box-pg1{
+    margin-top: 500px;
+    margin-left: 60px;
+    width: 550px;
+}
+
+#gun_msg{
+    position: relative;
+    top: 500px;
+    right: 225px;
+    z-index: 3;
+}
+
+/* page2 */
+#page_2{
+    background-color:rgb(4, 2, 22); 
+    height: 750px;
+    color: white;
+    padding-top: 100px;  
+}
+
+#subheading-1 h1{
+    font-weight: 500;
+    font-family: "Keania One", sans-serif;
+    font-size: 100px;
+}
+
+#subheading-2 h2{
+    font-weight: 400;
+    font-size: 60px;
+    z-index: 3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#subpara{
+    font-size: 17px;
+    z-index: 3;
+}
+
+#blur3{
+    height: 280px;
+    width: 280px;
+    position:absolute;
+    top: 1400px;
+    left:-120px;
+    border-radius: 100%;
+    background-color:rgb(97, 35, 168);
+    filter: blur(120px);
+    z-index: 1;
+}
+
+#blur4{
+    height: 280px;
+    width: 280px;
+    position:absolute;
+    top: 1300px;
+    right: 150px;
+    border-radius: 100%;
+    background-color:rgba(97, 35, 168, 0.709);
+    filter: blur(80px);
+    z-index: 1;
+}
+
+#photo_pg2{
+    z-index: 3;
+}
+
+/* page3 */
+#page_3{
+    background-color:rgb(4, 2, 22); 
+    height: 750px;
+    color: white;
+}
+
+.sl-heading{
+    font-weight: 500;
+    font-size: 100px;
+    padding-bottom: 30px;
+    font-family: "Keania One", sans-serif;
+}
+
+#anime1{
+    z-index: 3;
+}
+
+#anime1 img{
+    margin-left: 80px;
+    width: 350px;
+    height: 550px;
+}
+
+#anime-grp img{
+    margin-left: 75px;
+}
+
+#anime2 img{
+    height: 250px;
+    width: 300px;
+    margin-bottom: 45px;
+}
+
+#anime3 img{
+    height: 250px;
+    width: 300px;
+}
+
+#anime4{
+    z-index: 3;
+}
+
+#anime4 img{
+    width: 330px;
+    height: 550px;
+}
+
+#blur5{
+    height: 280px;
+    width: 280px;
+    position:absolute;
+    top: 2300px;
+    left:-120px;
+    border-radius: 100%;
+    background-color:rgba(97, 35, 168, 0.739);
+    filter: blur(80px);
+    z-index: 1;
+}
+
+#blur6{
+    height: 280px;
+    width: 280px;
+    position:absolute;
+    top: 1850px;
+    right: -20px;
+    border-radius: 100%;
+    background-color:rgba(97, 35, 168, 0.75);
+    filter: blur(100px);
+    z-index: 1;
+}
+/* page4 */
+#page_4{
+    background-color:rgb(4, 2, 22); 
+    height: 800px;
+    color: white;
+}
+
+.details #de {
+    background-color:rgb(4, 2, 22); 
+    border: 2px solid grey;
+    height: 50px;
+    width: 600px;
+    padding: 5px 20px;
+    font-size: 25px;
+}
+.details #de1 {
+    background-color:rgb(4, 2, 22); 
+    border: 2px solid grey;
+    height: 50px;
+    width: 600px;
+    margin-left: 21px;
+    padding: 5px 20px;
+    font-size: 25px;
+}
+.details #de2{
+    background-color:rgb(4, 2, 22); 
+    border: 2px solid grey;
+    height: 250px;
+    width: 600px;
+    margin-left: 21px;
+    padding: 5px 20px;
+    font-size: 25px;
+}
+
+#submit{
+    height: 50px;
+    width: 600px;
+    color: white;
+    background-color: rgba(48, 48, 146, 0.513);
+    margin-top: 20px;
+    font-size: large;
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
+#footer{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
